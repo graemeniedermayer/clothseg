@@ -19,7 +19,7 @@ Works on castles!
 ## Installation
 It should be installable from the extensions tab.
 
-You might need to seperately install rem_bg
+You might need to seperately install [rem_bg](https://github.com/danielgatis/rembg)
 `pip install rem_bg`
 
 ### Updating

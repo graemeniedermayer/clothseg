@@ -18,7 +18,7 @@ import numpy as np
 
 from rembg import remove, new_session
 
-scriptname = "remove_bg v0.0.1"
+scriptname = "remove_bg v0.0.2"
 
 class Script(scripts.Script):
 	def title(self):
