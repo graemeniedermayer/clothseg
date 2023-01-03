@@ -27,7 +27,7 @@ In the WebUI, in the `Extensions` tab, in the `Installed` subtab, click `Check f
 
 ## Usage
 Select the "remove_bg vX.X.X" script from the script selection box in either txt2img or img2img.
-![screenshot](options.jpg)
+![screenshot](options.png)
 
 ### Models
 `u2net_cloth_seg` output 3 images for the clothing categories top, bottom, and combined (unless any of the checkmark are unticked)
