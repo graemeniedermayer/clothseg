@@ -1,5 +1,4 @@
-# Author: thygate with modifications from graemeniedermayer
-# https://github.com/thygate/stable-diffusion-webui-depthmap-script
+# Author: graemeniedermayer
 
 import modules.scripts as scripts
 import gradio as gr
