@@ -40,7 +40,9 @@ class Script(scripts.Script):
 		#would passing a dictionary be more readable?
 		return [model_type, convert_to_mask, output_top, output_bottom, output_combined]
 
-	def run(self, p, model_type, convert_to_mask, output_top, output_bottom, output_combined):
+	#defaults are to test script api
+	def run(self, p, model_type='u2net', convert_to_mask=False, output_top=True, output_bottom=True, output_combined=True):
+
 
 		# sd process 
 		processed = processing.process_images(p)
