@@ -30,7 +30,7 @@ class Script(scripts.Script):
 	def ui(self, is_img2img):
 
 		with gr.Row():
-			model_type = gr.Dropdown(label="Model", choices=['u2net','u2netp','u2net_cloth_seg','u2net_human_seg', 'silueta'], value='u2net_cloth_seg', type="value", elem_id="model_type")
+			model_type = gr.Dropdown(label="Model", choices=['u2net','u2netp','u2net_cloth_seg','u2net_human_seg', 'silueta', "isnet-general-use", "isnet-anime"], value='u2net_cloth_seg', type="value", elem_id="model_type")
 		with gr.Row():	
 			convert_to_mask = gr.Checkbox(label="convert to mask",value=True)
 			output_top = gr.Checkbox(label="output top",value=True)
