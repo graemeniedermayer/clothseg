@@ -22,6 +22,9 @@ It should be installable from the extensions tab.
 You might need to seperately install [rem_bg](https://github.com/danielgatis/rembg)
 `pip install rem_bg`
 
+for is-net you might need to update rem_bg
+`pip install -U rem_bg`
+
 ### Updating
 In the WebUI, in the `Extensions` tab, in the `Installed` subtab, click `Check for Updates` and then `Apply and restart UI`.
 
@@ -62,3 +65,5 @@ https://arxiv.org/pdf/2005.09007.pdf
 https://github.com/NathanUA/U-2-Net
 
 https://github.com/pymatting/pymatting
+
+https://github.com/xuebinqin/DIS
